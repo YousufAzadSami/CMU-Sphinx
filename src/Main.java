@@ -28,14 +28,15 @@ public class Main {
 	
 	private static void StreamSpeech(Configuration configuration) throws IOException {
 		StreamSpeechRecognizer recognizer = new StreamSpeechRecognizer(configuration);
-		InputStream stream = new FileInputStream(new File("bug02.wav"));
+		InputStream stream = new FileInputStream(new File("Resource//bug02.wav"));
 		
 		recognizer.startRecognition(stream);
 		SpeechResult result;
 		while ((result = recognizer.getResult()) != null) {
-			System.out.format("Hypothesis: %s\n", result.getHypothesis());
-			String temp = result.getResult().getBestPronunciationResult();
-			System.out.format("Hypothesis: %s\n", temp);
+			String hypothesis = result.getHypothesis();
+			System.out.format("Hypothesis: %s\n", hypothesis);
+			String phonemes = result.getResult().getBestPronunciationResult();
+			System.out.format("Phonemes: %s\n", phonemes);
 		}
 	
 		recognizer.stopRecognition();
