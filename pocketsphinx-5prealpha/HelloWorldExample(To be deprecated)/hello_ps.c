@@ -27,8 +27,8 @@ main(int argc, char *argv[])
 	return -1;
     }
 
-    fh = fopen("HelloAudio/Hello1.wav", "rb");
-    // fh = fopen("bug03.wav", "rb");
+    fh = fopen("HelloAudio/Hello.wav", "rb");
+    // fh = fopen("goforward.raw", "rb");
     if (fh == NULL) {
 	fprintf(stderr, "Unable to open input file goforward.raw\n");
 	return -1;
