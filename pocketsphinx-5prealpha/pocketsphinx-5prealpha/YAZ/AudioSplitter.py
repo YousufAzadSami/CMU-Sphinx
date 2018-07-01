@@ -20,7 +20,7 @@ from pydub import AudioSegment
 from pydub.silence import split_on_silence
 from pydub.playback import play
 
-sound_file = AudioSegment.from_wav("Hello.wav")
+sound_file = AudioSegment.from_wav("Audio//Hello.wav")
 #play(sound_file)
 audio_chunks = split_on_silence(sound_file, 
     # must be silent for at least half a second
