@@ -1,0 +1,25 @@
+pocketsphinx_continuous -infile YAZ/Audio/HelloWithSilence/Hello0.wav -hmm  ./model/en-us/en-us -allphone ./model/en-us/en-us-phone.lm.bin  -backtrace yes -beam 1e-20 -pbeam 1e-20 -lw 2.0
+audio file length : .982s
+INFO: continuous.c(307): pocketsphinx_continuous COMPILED ON: May 31 2018, AT: 20:10:02
+
+INFO: allphone_search.c(849): 93 frames, 1138311 HMMs (12239/fr), 318004 senones (3419/fr), 578202 history entries (6217/fr)
+INFO: allphone_search.c(862): allphone 4.16 CPU 4.428 xRT
+INFO: allphone_search.c(864): allphone 4.17 wall 4.437 xRT
+INFO: allphone_search.c(907): Hyp: SIL N AY L OW M +SPN+
+INFO: pocketsphinx.c(1168): SIL N AY L OW M +SPN+ (-2800)
+word                 start end   pprob ascr       lscr       lback
+SIL                  0     53    1.000 -1143      0          0  
+N                    54    58    1.000 -160       -75        0  
+AY                   59    64    1.000 -283       -147       0  
+L                    65    68    1.000 -23        -151       0  
+OW                   69    77    1.000 -91        -126       0  
+M                    78    80    1.000 -62        -157       0  
++SPN+                81    92    1.000 -173       -209       0  
+INFO: allphone_search.c(907): Hyp: SIL N AY L OW M +SPN+
+SIL N AY L OW M +SPN+
+
+
+
+Sample rate and frame: 
+- https://stackoverflow.com/questions/3957025/what-does-a-audio-frame-contain
+- https://sound.stackexchange.com/questions/5022/how-many-samples-are-in-a-frame

@@ -1,7 +1,17 @@
-Mutiple line: 
+Detect Words: 
+
+hello_ps.c
+
+Mutiple Line: 
 gcc -o hello_ps hello_ps.c \
     -DMODELDIR=\"`pkg-config --variable=modeldir pocketsphinx`\" \
     `pkg-config --cflags --libs pocketsphinx sphinxbase`
 
 One line: 
 gcc -o hello_ps hello_ps.c -DMODELDIR=\"`pkg-config --variable=modeldir pocketsphinx`\" `pkg-config --cflags --libs pocketsphinx sphinxbase`
+
+
+Detect Phonemes: 
+One Line: 
+pocketsphinx_continuous -infile Audio/HelloWithSilence/Hello0.wav -hmm  ./model/en-us/en-us -allphone ./model/en-us/en-us-phone.lm.bin  -backtrace yes -beam 1e-20 -pbeam 1e-20 -lw 2.0
+
