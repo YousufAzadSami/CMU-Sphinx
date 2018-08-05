@@ -47,7 +47,8 @@ main(int argc, char *argv[])
 
     rv = ps_end_utt(ps);
     hyp = ps_get_hyp(ps, &score);
-    printf("Recognized: %s\n", hyp);
+    // Detected word output
+    printf("%s", hyp);
 
     fclose(fh);
     ps_free(ps);
