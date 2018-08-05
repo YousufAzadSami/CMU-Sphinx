@@ -3,6 +3,8 @@
 int
 main(int argc, char *argv[])
 {
+	// printf("%s\n", argv[1]);
+
     ps_decoder_t *ps;
     cmd_ln_t *config;
     FILE *fh;
@@ -27,7 +29,8 @@ main(int argc, char *argv[])
 	return -1;
     }
 
-    fh = fopen("Audio/HelloWithSilence/Hello0.wav", "rb");
+    fh = fopen(argv[1], "rb");
+    // "Audio/HelloWithSilence/Hello0.wav"
     // fh = fopen("goforward.raw", "rb");
     if (fh == NULL) {
 	fprintf(stderr, "Unable to open input file goforward.raw\n");
