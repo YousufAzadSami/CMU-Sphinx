@@ -1165,6 +1165,7 @@ ps_end_utt(ps_decoder_t *ps)
         hyp = ps_get_hyp(ps, &score);
         
         if (hyp != NULL) {
+            E_INFO("EXAMPLE\n");
     	    E_INFO("%s (%d)\n", hyp, score);
     	    E_INFO_NOFN("%-20s %-5s %-5s %-5s %-10s %-10s %-3s\n",
                     "word", "start", "end", "pprob", "ascr", "lscr", "lback");
@@ -1180,7 +1181,9 @@ ps_end_utt(ps_decoder_t *ps)
         	E_INFO_NOFN("%-20s %-5d %-5d %-1.3f %-10d %-10d %-3d\n",
                     	    word, sf, ef, logmath_exp(ps_get_logmath(ps), post),
                     	ascr, lscr, lback);
+            printf("%d:%d ", sf, ef);
     	    }
+            printf("\n");
         }
     }
     return rv;

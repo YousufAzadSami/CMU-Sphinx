@@ -1,8 +1,9 @@
 _sphinxbase_la-sphinxbase_wrap.lo: sphinxbase_wrap.c \
- /usr/include/stdc-predef.h /usr/include/python2.7/Python.h \
- /usr/include/python2.7/patchlevel.h /usr/include/python2.7/pyconfig.h \
- /usr/include/x86_64-linux-gnu/python2.7/pyconfig.h \
- /usr/include/python2.7/pymacconfig.h \
+ /usr/include/stdc-predef.h \
+ /home/sami-mint/anaconda3/include/python3.6m/Python.h \
+ /home/sami-mint/anaconda3/include/python3.6m/patchlevel.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pyconfig.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pymacconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/features.h \
@@ -49,11 +50,12 @@ _sphinxbase_la-sphinxbase_wrap.lo: sphinxbase_wrap.c \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
- /usr/include/x86_64-linux-gnu/bits/unistd.h /usr/include/assert.h \
- /usr/include/python2.7/pyport.h /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h /usr/include/crypt.h \
+ /usr/include/assert.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pyport.h \
+ /usr/include/inttypes.h /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/huge_val.h \
  /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
@@ -67,48 +69,72 @@ _sphinxbase_la-sphinxbase_wrap.lo: sphinxbase_wrap.c \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
- /usr/include/python2.7/pymath.h /usr/include/python2.7/pymem.h \
- /usr/include/python2.7/object.h /usr/include/python2.7/objimpl.h \
- /usr/include/python2.7/pydebug.h /usr/include/python2.7/unicodeobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pymacro.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pyatomic.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pymath.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pytime.h \
+ /home/sami-mint/anaconda3/include/python3.6m/object.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pymem.h \
+ /home/sami-mint/anaconda3/include/python3.6m/objimpl.h \
+ /home/sami-mint/anaconda3/include/python3.6m/typeslots.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pyhash.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pydebug.h \
+ /home/sami-mint/anaconda3/include/python3.6m/bytearrayobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/bytesobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/unicodeobject.h \
  /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/wchar2.h \
- /usr/include/python2.7/intobject.h /usr/include/python2.7/boolobject.h \
- /usr/include/python2.7/longobject.h /usr/include/python2.7/floatobject.h \
- /usr/include/python2.7/complexobject.h \
- /usr/include/python2.7/rangeobject.h \
- /usr/include/python2.7/stringobject.h \
- /usr/include/python2.7/memoryobject.h \
- /usr/include/python2.7/bufferobject.h \
- /usr/include/python2.7/bytesobject.h \
- /usr/include/python2.7/bytearrayobject.h \
- /usr/include/python2.7/tupleobject.h /usr/include/python2.7/listobject.h \
- /usr/include/python2.7/dictobject.h /usr/include/python2.7/enumobject.h \
- /usr/include/python2.7/setobject.h /usr/include/python2.7/methodobject.h \
- /usr/include/python2.7/moduleobject.h \
- /usr/include/python2.7/funcobject.h /usr/include/python2.7/classobject.h \
- /usr/include/python2.7/fileobject.h /usr/include/python2.7/cobject.h \
- /usr/include/python2.7/pycapsule.h /usr/include/python2.7/traceback.h \
- /usr/include/python2.7/sliceobject.h /usr/include/python2.7/cellobject.h \
- /usr/include/python2.7/iterobject.h /usr/include/python2.7/genobject.h \
- /usr/include/python2.7/descrobject.h /usr/include/python2.7/warnings.h \
- /usr/include/python2.7/weakrefobject.h /usr/include/python2.7/codecs.h \
- /usr/include/python2.7/pyerrors.h /usr/include/python2.7/pystate.h \
- /usr/include/python2.7/pyarena.h /usr/include/python2.7/modsupport.h \
- /usr/include/python2.7/pythonrun.h /usr/include/python2.7/ceval.h \
- /usr/include/python2.7/sysmodule.h /usr/include/python2.7/intrcheck.h \
- /usr/include/python2.7/import.h /usr/include/python2.7/abstract.h \
- /usr/include/python2.7/compile.h /usr/include/python2.7/code.h \
- /usr/include/python2.7/eval.h /usr/include/python2.7/pyctype.h \
- /usr/include/python2.7/pystrtod.h /usr/include/python2.7/pystrcmp.h \
- /usr/include/python2.7/dtoa.h /usr/include/python2.7/pyfpe.h \
- /usr/include/signal.h /usr/include/x86_64-linux-gnu/bits/signum.h \
- /usr/include/x86_64-linux-gnu/bits/siginfo.h \
- /usr/include/x86_64-linux-gnu/bits/sigaction.h \
- /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigstack.h \
- /usr/include/x86_64-linux-gnu/sys/ucontext.h \
- /usr/include/x86_64-linux-gnu/bits/sigthread.h /usr/include/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /home/sami-mint/anaconda3/include/python3.6m/longobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/longintrepr.h \
+ /home/sami-mint/anaconda3/include/python3.6m/boolobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/floatobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/complexobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/rangeobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/memoryobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/tupleobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/listobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/dictobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/odictobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/enumobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/setobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/methodobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/moduleobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/funcobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/classobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/fileobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pycapsule.h \
+ /home/sami-mint/anaconda3/include/python3.6m/traceback.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pystate.h \
+ /home/sami-mint/anaconda3/include/python3.6m/sliceobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/cellobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/iterobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/genobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/descrobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/warnings.h \
+ /home/sami-mint/anaconda3/include/python3.6m/weakrefobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/structseq.h \
+ /home/sami-mint/anaconda3/include/python3.6m/namespaceobject.h \
+ /home/sami-mint/anaconda3/include/python3.6m/codecs.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pyerrors.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pyarena.h \
+ /home/sami-mint/anaconda3/include/python3.6m/modsupport.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pythonrun.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pylifecycle.h \
+ /home/sami-mint/anaconda3/include/python3.6m/ceval.h \
+ /home/sami-mint/anaconda3/include/python3.6m/sysmodule.h \
+ /home/sami-mint/anaconda3/include/python3.6m/osmodule.h \
+ /home/sami-mint/anaconda3/include/python3.6m/intrcheck.h \
+ /home/sami-mint/anaconda3/include/python3.6m/import.h \
+ /home/sami-mint/anaconda3/include/python3.6m/abstract.h \
+ /home/sami-mint/anaconda3/include/python3.6m/bltinmodule.h \
+ /home/sami-mint/anaconda3/include/python3.6m/compile.h \
+ /home/sami-mint/anaconda3/include/python3.6m/code.h \
+ /home/sami-mint/anaconda3/include/python3.6m/eval.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pyctype.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pystrtod.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pystrcmp.h \
+ /home/sami-mint/anaconda3/include/python3.6m/dtoa.h \
+ /home/sami-mint/anaconda3/include/python3.6m/fileutils.h \
+ /home/sami-mint/anaconda3/include/python3.6m/pyfpe.h \
  ../../include/sphinxbase/cmd_ln.h \
  ../../include/sphinxbase/sphinxbase_export.h \
  ../../include/sphinxbase/prim_type.h ../../include/sphinx_config.h \
@@ -118,22 +144,22 @@ _sphinxbase_la-sphinxbase_wrap.lo: sphinxbase_wrap.c \
  ../../include/sphinxbase/jsgf.h ../../include/sphinxbase/hash_table.h \
  ../../include/sphinxbase/glist.h ../../include/sphinxbase/fsg_model.h \
  ../../include/sphinxbase/logmath.h ../../include/sphinxbase/bitvec.h \
- ../../include/sphinxbase/ckd_alloc.h \
+ ../../include/sphinxbase/ckd_alloc.h /usr/include/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
  ../../include/sphinxbase/listelem_alloc.h \
  ../../include/sphinxbase/ngram_model.h ../../include/sphinxbase/mmio.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/float.h
 
 /usr/include/stdc-predef.h:
 
-/usr/include/python2.7/Python.h:
+/home/sami-mint/anaconda3/include/python3.6m/Python.h:
 
-/usr/include/python2.7/patchlevel.h:
+/home/sami-mint/anaconda3/include/python3.6m/patchlevel.h:
 
-/usr/include/python2.7/pyconfig.h:
+/home/sami-mint/anaconda3/include/python3.6m/pyconfig.h:
 
-/usr/include/x86_64-linux-gnu/python2.7/pyconfig.h:
-
-/usr/include/python2.7/pymacconfig.h:
+/home/sami-mint/anaconda3/include/python3.6m/pymacconfig.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:
 
@@ -259,9 +285,11 @@ _sphinxbase_la-sphinxbase_wrap.lo: sphinxbase_wrap.c \
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 
+/usr/include/crypt.h:
+
 /usr/include/assert.h:
 
-/usr/include/python2.7/pyport.h:
+/home/sami-mint/anaconda3/include/python3.6m/pyport.h:
 
 /usr/include/inttypes.h:
 
@@ -301,143 +329,139 @@ _sphinxbase_la-sphinxbase_wrap.lo: sphinxbase_wrap.c \
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
 
-/usr/include/python2.7/pymath.h:
+/home/sami-mint/anaconda3/include/python3.6m/pymacro.h:
 
-/usr/include/python2.7/pymem.h:
+/home/sami-mint/anaconda3/include/python3.6m/pyatomic.h:
 
-/usr/include/python2.7/object.h:
+/home/sami-mint/anaconda3/include/python3.6m/pymath.h:
 
-/usr/include/python2.7/objimpl.h:
+/home/sami-mint/anaconda3/include/python3.6m/pytime.h:
 
-/usr/include/python2.7/pydebug.h:
+/home/sami-mint/anaconda3/include/python3.6m/object.h:
 
-/usr/include/python2.7/unicodeobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/pymem.h:
+
+/home/sami-mint/anaconda3/include/python3.6m/objimpl.h:
+
+/home/sami-mint/anaconda3/include/python3.6m/typeslots.h:
+
+/home/sami-mint/anaconda3/include/python3.6m/pyhash.h:
+
+/home/sami-mint/anaconda3/include/python3.6m/pydebug.h:
+
+/home/sami-mint/anaconda3/include/python3.6m/bytearrayobject.h:
+
+/home/sami-mint/anaconda3/include/python3.6m/bytesobject.h:
+
+/home/sami-mint/anaconda3/include/python3.6m/unicodeobject.h:
 
 /usr/include/ctype.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
-/usr/include/python2.7/intobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/longobject.h:
 
-/usr/include/python2.7/boolobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/longintrepr.h:
 
-/usr/include/python2.7/longobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/boolobject.h:
 
-/usr/include/python2.7/floatobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/floatobject.h:
 
-/usr/include/python2.7/complexobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/complexobject.h:
 
-/usr/include/python2.7/rangeobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/rangeobject.h:
 
-/usr/include/python2.7/stringobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/memoryobject.h:
 
-/usr/include/python2.7/memoryobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/tupleobject.h:
 
-/usr/include/python2.7/bufferobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/listobject.h:
 
-/usr/include/python2.7/bytesobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/dictobject.h:
 
-/usr/include/python2.7/bytearrayobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/odictobject.h:
 
-/usr/include/python2.7/tupleobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/enumobject.h:
 
-/usr/include/python2.7/listobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/setobject.h:
 
-/usr/include/python2.7/dictobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/methodobject.h:
 
-/usr/include/python2.7/enumobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/moduleobject.h:
 
-/usr/include/python2.7/setobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/funcobject.h:
 
-/usr/include/python2.7/methodobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/classobject.h:
 
-/usr/include/python2.7/moduleobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/fileobject.h:
 
-/usr/include/python2.7/funcobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/pycapsule.h:
 
-/usr/include/python2.7/classobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/traceback.h:
 
-/usr/include/python2.7/fileobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/pystate.h:
 
-/usr/include/python2.7/cobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/sliceobject.h:
 
-/usr/include/python2.7/pycapsule.h:
+/home/sami-mint/anaconda3/include/python3.6m/cellobject.h:
 
-/usr/include/python2.7/traceback.h:
+/home/sami-mint/anaconda3/include/python3.6m/iterobject.h:
 
-/usr/include/python2.7/sliceobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/genobject.h:
 
-/usr/include/python2.7/cellobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/descrobject.h:
 
-/usr/include/python2.7/iterobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/warnings.h:
 
-/usr/include/python2.7/genobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/weakrefobject.h:
 
-/usr/include/python2.7/descrobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/structseq.h:
 
-/usr/include/python2.7/warnings.h:
+/home/sami-mint/anaconda3/include/python3.6m/namespaceobject.h:
 
-/usr/include/python2.7/weakrefobject.h:
+/home/sami-mint/anaconda3/include/python3.6m/codecs.h:
 
-/usr/include/python2.7/codecs.h:
+/home/sami-mint/anaconda3/include/python3.6m/pyerrors.h:
 
-/usr/include/python2.7/pyerrors.h:
+/home/sami-mint/anaconda3/include/python3.6m/pyarena.h:
 
-/usr/include/python2.7/pystate.h:
+/home/sami-mint/anaconda3/include/python3.6m/modsupport.h:
 
-/usr/include/python2.7/pyarena.h:
+/home/sami-mint/anaconda3/include/python3.6m/pythonrun.h:
 
-/usr/include/python2.7/modsupport.h:
+/home/sami-mint/anaconda3/include/python3.6m/pylifecycle.h:
 
-/usr/include/python2.7/pythonrun.h:
+/home/sami-mint/anaconda3/include/python3.6m/ceval.h:
 
-/usr/include/python2.7/ceval.h:
+/home/sami-mint/anaconda3/include/python3.6m/sysmodule.h:
 
-/usr/include/python2.7/sysmodule.h:
+/home/sami-mint/anaconda3/include/python3.6m/osmodule.h:
 
-/usr/include/python2.7/intrcheck.h:
+/home/sami-mint/anaconda3/include/python3.6m/intrcheck.h:
 
-/usr/include/python2.7/import.h:
+/home/sami-mint/anaconda3/include/python3.6m/import.h:
 
-/usr/include/python2.7/abstract.h:
+/home/sami-mint/anaconda3/include/python3.6m/abstract.h:
 
-/usr/include/python2.7/compile.h:
+/home/sami-mint/anaconda3/include/python3.6m/bltinmodule.h:
 
-/usr/include/python2.7/code.h:
+/home/sami-mint/anaconda3/include/python3.6m/compile.h:
 
-/usr/include/python2.7/eval.h:
+/home/sami-mint/anaconda3/include/python3.6m/code.h:
 
-/usr/include/python2.7/pyctype.h:
+/home/sami-mint/anaconda3/include/python3.6m/eval.h:
 
-/usr/include/python2.7/pystrtod.h:
+/home/sami-mint/anaconda3/include/python3.6m/pyctype.h:
 
-/usr/include/python2.7/pystrcmp.h:
+/home/sami-mint/anaconda3/include/python3.6m/pystrtod.h:
 
-/usr/include/python2.7/dtoa.h:
+/home/sami-mint/anaconda3/include/python3.6m/pystrcmp.h:
 
-/usr/include/python2.7/pyfpe.h:
+/home/sami-mint/anaconda3/include/python3.6m/dtoa.h:
 
-/usr/include/signal.h:
+/home/sami-mint/anaconda3/include/python3.6m/fileutils.h:
 
-/usr/include/x86_64-linux-gnu/bits/signum.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/include/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp2.h:
+/home/sami-mint/anaconda3/include/python3.6m/pyfpe.h:
 
 ../../include/sphinxbase/cmd_ln.h:
 
@@ -472,6 +496,12 @@ _sphinxbase_la-sphinxbase_wrap.lo: sphinxbase_wrap.c \
 ../../include/sphinxbase/bitvec.h:
 
 ../../include/sphinxbase/ckd_alloc.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp2.h:
 
 ../../include/sphinxbase/listelem_alloc.h:
 

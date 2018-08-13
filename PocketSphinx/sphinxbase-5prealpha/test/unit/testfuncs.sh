@@ -1,7 +1,7 @@
 # Utility functions and parameters for regression tests
 
 # Predefined directories you may need
-# Stupid broken CMU Facilities autoconf doesn't do /home/sami-mint/Downloads/PocketSphinx/sphinxbase-5prealpha
+# Stupid broken CMU Facilities autoconf doesn't do /home/sami-mint/eclipse-workspace/ISYVoiceAnomaly/course-isy-18-speech-recognition-code/CMU_Sphnix/PocketSphinx/sphinxbase-5prealpha
 builddir=../"../.."
 sourcedir=../"../.."
 tests=$sourcedir/test

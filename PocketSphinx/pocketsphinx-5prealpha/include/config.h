@@ -14,7 +14,7 @@
 #define HAVE_MEMORY_H 1
 
 /* If available, contains the Python version number currently in use. */
-#define HAVE_PYTHON "2.7"
+#define HAVE_PYTHON "3.6"
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
@@ -37,8 +37,7 @@
 /* Define to 1 if you have the <unistd.h> header file. */
 #define HAVE_UNISTD_H 1
 
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */

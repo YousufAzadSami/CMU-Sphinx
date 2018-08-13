@@ -14,6 +14,7 @@ then, run ./hello_ps
 
 
 Detect Phonemes: 
+From one directory up, run this command
 One Line: 
-pocketsphinx_continuous -infile Audio/HelloWithSilence/Hello0.wav -hmm  ./model/en-us/en-us -allphone ./model/en-us/en-us-phone.lm.bin  -backtrace yes -beam 1e-20 -pbeam 1e-20 -lw 2.0
+pocketsphinx_continuous -infile YAZ/Audio/HelloWithSilence/Hello0.wav -hmm  ./model/en-us/en-us -allphone ./model/en-us/en-us-phone.lm.bin  -backtrace yes -beam 1e-20 -pbeam 1e-20 -lw 2.0
 
